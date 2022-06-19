@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Esperienze PCTO</title>
     <link rel="stylesheet" href="style2.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="animate.min.css">
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
@@ -39,13 +39,13 @@
     </header>
     <section class="banner" id="banner">
         <div class="content"> 
-            <h2 class="slide-bottom">Le scelte cambiano il futuro</h2>       
+            <h2 class="wow animate__animated animate__fadeInDown">Le scelte cambiano il futuro</h2>       
                  
         </div>
         <div class="prova">
-            <p class="slide-right">L'uomo incontra Dio dietro ogni porta che la scienza riesce ad aprire.</p>
-            <p class="slide-right">-A. Einstein</p>
-            <div class="button slide-top">
+            <p class="wow animate__animated animate__fadeInLeft">L'uomo incontra Dio dietro ogni porta che la scienza riesce ad aprire.</p>
+            <p class="wow animate__animated animate__fadeInLeft">-A. Einstein</p>
+            <div class="button wow animate__animated animate__fadeInUp">
             <a href="Relazione-finale-PCTO 2.docx" class="btn">Scarica Relazione finale PCTO</a>
             </div>
         </div>
@@ -227,12 +227,12 @@
     canvas.classList.add('hide-canvas')
     </script>
 
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+
+<script src="js/wow.min.js"></script>
 <script>
-  AOS.init({
-	duration: 1500,
-});
-</script>
+    new WOW().init();
+    </script>
 
 
 </body>
