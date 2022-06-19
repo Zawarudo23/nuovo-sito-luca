@@ -1,13 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
 
 
-
-
-body[data-aos-duration='2000'] [data-aos],
-  [data-aos][data-aos][data-aos-duration='2000'] {
-    transition-duration: 2000ms;
-  }
-
 @-webkit-keyframes slide-right {
     0% {
       -webkit-transform: translateX(-200px);
